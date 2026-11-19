@@ -139,7 +139,6 @@ Bidirectional_UART/
 ├── reciever_uart.v
 ├── device.v
 ├── test_bench_uart.v
-
 readme
 ```
 
