@@ -45,6 +45,7 @@ d2_tx_start=0;
     if (d1_rx_data==d2_tx_data && d2_rx_data==d1_tx_data) begin
       $display("data is transfered succesfull from device 2 to device 1 %b to %b ",d1_rx_data,d2_tx_data);
       $display("data  is transfered  succesfull from device 1 to device 2 %b to %b ",d2_rx_data, d1_tx_data);
+      // data is succesfully transfered from device 1 ro device 2 and vice versa 
   end
     else 
       $display("the transmission is not succesfull %d",d1_rx_data,d2_rx_data);
